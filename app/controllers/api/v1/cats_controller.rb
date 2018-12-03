@@ -7,7 +7,7 @@ module Api
       end
 
       def show
-        render json: Cat.find(params[:id]), include: ['hobbies']
+        render json: Cat.find(params[:id]), include: ['hobbies'] 
       end
     end
   end
